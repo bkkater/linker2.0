@@ -26,13 +26,11 @@ const styles = StyleSheet.create({
     },
     details: {
         backgroundColor: '#FF6D70',
+        height: 36,
+        width: 218,
         alignItems: "center",
         justifyContent: "center",
-        borderRadius: 15,
-        padding: 9,
-        paddingLeft: 60,
-        paddingRight: 60
-
+        borderRadius: 15
     },
     detailsText: {
         fontFamily: 'Ubuntu_500Medium',
@@ -49,6 +47,12 @@ const styles = StyleSheet.create({
         fontFamily: 'Ubuntu_500Medium',
         fontSize: 16,
         color: '#FF6D70',
+        marginLeft: 5
+    },
+    typeNone: {
+        fontFamily: 'Ubuntu_500Medium',
+        fontSize: 16,
+        color: '#959595',
         marginLeft: 5
     },
     information: {

@@ -67,9 +67,8 @@ function Organization() {
                 </View>
             </OrganizationContainer>
 
-            <View style={style.details}>
-                <BorderlessButton><Text style={style.detailsText}>Ver Relatório</Text></BorderlessButton>
-            </View>
+            <BorderlessButton style={style.details}><Text style={style.detailsText}>Ver Relatório</Text></BorderlessButton>
+
 
             <OrganizationContainer title={'Despesas por Categoria'} icon={<BorderlessButton><Image source={add} /></BorderlessButton>}>
                 <Item title='Conta de luz' price='432,88' positive={false}></Item>

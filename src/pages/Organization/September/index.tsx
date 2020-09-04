@@ -5,17 +5,17 @@ import { ScrollView, BorderlessButton, RectButton } from 'react-native-gesture-h
 
 import style from './styles'
 
-import Header from '../../components/Header'
-import OrganizationContainer from '../../components/OrganizationContainer';
+import Header from '../../../components/Header'
+import OrganizationContainer from '../../../components/OrganizationContainer';
 
 import { useNavigation } from '@react-navigation/native';
 
-import backArrow from '../../assets/back-arrow.png'
-import calculator from '../../assets/calculator.png'
-import add from '../../assets/add.png'
-import Item from '../../components/Item';
+import backArrow from '../../../assets/back-arrow.png'
+import calculator from '../../../assets/calculator.png'
+import add from '../../../assets/add.png'
+import Item from '../../../components/Item';
 
-function Organization() {
+function September() {
     const { navigate } = useNavigation();
 
     function handleNavigateToBack() {
@@ -26,10 +26,15 @@ function Organization() {
         navigate('Calculator')
     }
 
-    function handleNavigateToSeptember() {
-        navigate('September')
+    function handleNavigateToOrganization() {
+        navigate('Organization')
 
     }
+    
+    function handleNavigateToOctober() {
+        navigate('October')
+    }
+
     return (
         <View style={{ alignItems: "center" }}>
             <View style={style.topBar} />
@@ -39,14 +44,14 @@ function Organization() {
             />
 
             <View style={style.month}>
-                <BorderlessButton><Feather name="chevron-left" size={24} color="#929090" /></BorderlessButton>
-                <Text style={style.monthText}>Agosto</Text>
-                <BorderlessButton onPress={handleNavigateToSeptember}><Feather name="chevron-right" size={24} color="#929090" /></BorderlessButton>
+                <BorderlessButton onPress={handleNavigateToOrganization}><Feather name="chevron-left" size={24} color="#929090" /></BorderlessButton>
+                <Text style={style.monthText}>Setembro</Text>
+                <BorderlessButton onPress={handleNavigateToOctober}><Feather name="chevron-right" size={24} color="#929090" /></BorderlessButton>
             </View>
 
             <OrganizationContainer title={'Resumo de Movimentações'} icon={<BorderlessButton onPress={handleNavigateToCalculator}><Image source={calculator} /></BorderlessButton>}>
                 <View style={style.recent}>
-                    <Text style={style.type}>Conta de Luz</Text>
+                    <Text style={style.type}>Salario: Limpeza</Text>
                 </View>
 
                 <View style={style.information}>
@@ -68,24 +73,20 @@ function Organization() {
             </OrganizationContainer>
 
             <View style={style.details}>
-                <BorderlessButton><Text style={style.detailsText}>Ver Relatório</Text></BorderlessButton>
+            <BorderlessButton><Text style={style.detailsText}>Ver Relatório</Text></BorderlessButton>
             </View>
 
             <OrganizationContainer title={'Despesas por Categoria'} icon={<BorderlessButton><Image source={add} /></BorderlessButton>}>
-                <Item title='Conta de luz' price='432,88' positive={false}></Item>
-                <Item title='Conta de água' price='156,18' positive={false}></Item>
+                <Item title='Salario: Limpeza' price='1880,40' positive={false}></Item>
                 <Item title='Salario: Manutenção' price='2000,00' positive={false}></Item>
                 <Item title='Salario: Seguranças' price='2865,00' positive={false}></Item>
             </OrganizationContainer>
 
             <OrganizationContainer title={'Receitas por Categoria'} icon={<BorderlessButton><Image source={add} /></BorderlessButton>}>
-                <Item title='Condomínio 104' price='150,00' positive={true}></Item>
-                <Item title='Condomínio 201' price='150,00' positive={true}></Item>
-                <Item title='Condomínio 302' price='150,00' positive={true}></Item>
-                <Item title='Condomínio 101' price='150,00' positive={true}></Item>
+                <Item title='Condomínio 404' price='150,00' positive={true}></Item>
             </OrganizationContainer>
         </View>
     );
 }
 
-export default Organization;
+export default September;

@@ -1,6 +1,9 @@
-import { StyleSheet, YellowBox } from 'react-native';
+import { StyleSheet, YellowBox, Dimensions } from 'react-native';
+
+const width = Dimensions.get('window').width;
 
 const styles = StyleSheet.create({
+    
     cardContainer: {
         flexDirection: 'row',
         justifyContent: "center",
@@ -14,7 +17,7 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: "center",
         alignItems: "center",
-        marginBottom: 20
+        marginBottom: 15
     },
     monthText: {
         fontFamily: 'Ubuntu_500Medium',
@@ -26,13 +29,11 @@ const styles = StyleSheet.create({
     },
     details: {
         backgroundColor: '#FF6D70',
+        height: 36,
+        width: 218,
         alignItems: "center",
         justifyContent: "center",
-        borderRadius: 15,
-        padding: 9,
-        paddingLeft: 60,
-        paddingRight: 60
-
+        borderRadius: 15
     },
     detailsText: {
         fontFamily: 'Ubuntu_500Medium',
@@ -79,6 +80,34 @@ const styles = StyleSheet.create({
         fontSize: 14,
         color: '#959595'
     },
+    top: {
+        flex: 1
+    },
+    bottom: {
+        flex: 3,
+        height: 500,
+        width: width,
+        backgroundColor: '#ECECEC',
+        borderTopColor: '#BFBDBD',
+        borderTopWidth: 1,
+        flexDirection: "row"
+    },
+    numberColumn: {
+        flexDirection: 'row',
+    },
+    left: {
+        flex: 3
+    },
+    right: {
+        flex: 1,
+        flexDirection: 'column'
+    },
+    actionButton: {
+        alignItems: "center",
+        justifyContent: "center",
+        height: 90,
+        width: 97
+    }
 })
 
 export default styles;

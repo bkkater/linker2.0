@@ -21,7 +21,6 @@
 - [Juliana](https://www.linkedin.com/in/juliana-talita-b683581b2/)
 - [Eduarda](https://www.linkedin.com/in/eduarda-barboza-tavares-612a55159/)
 - [Jhennifer](https://www.linkedin.com/in/jhennifer-pimentel-0518171b2/)
-- [Thereza](https://www.linkedin.com/in/thereza-cristina-bandoli-legg-244a8924/)
 
 
 ## 📏 Mentores
@@ -34,7 +33,7 @@
 Para rodar o projeto mobile você precisa de um celular com o [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) instlado ou um emulador android/ios.
 
 ```bash
-# Vá para a pasta mobile
+# Vá para a pasta linker2.0
 $ cd linker2.0
 
 # Instale as depedencias
