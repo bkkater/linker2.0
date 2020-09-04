@@ -14,14 +14,12 @@ const styles = StyleSheet.create({
         marginLeft: 10,
         marginRight: 20,
         color: '#316094',
-        alignSelf: "center",
-        width: 120
+        alignSelf: "center"
     },
     left: {
         flexDirection: 'row',
         justifyContent: "center",
-        alignItems: "center",
-        marginRight: 25 
+        alignItems: "baseline",
     },
 })
 

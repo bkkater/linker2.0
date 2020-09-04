@@ -35,7 +35,7 @@ Para rodar o projeto mobile você precisa de um celular com o [expo](https://pla
 
 ```bash
 # Vá para a pasta mobile
-$ cd summit-mobile
+$ cd linker2.0
 
 # Instale as depedencias
 $ yarn install
