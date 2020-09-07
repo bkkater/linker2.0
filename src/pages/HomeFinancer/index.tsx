@@ -22,6 +22,16 @@ function HomeFinancer() {
     function handleNavigateToOrganization() {
         navigate('Organization')
     }
+
+    function handleNavigateToClientList() {
+        navigate('ClientList')
+    }
+
+    function handleNavigateToClientReport() {
+        navigate('ClientReport')
+    }
+
+
     return (
         <View>
             <View style={style.topBar} />
@@ -39,12 +49,12 @@ function HomeFinancer() {
                 </View>
 
                 <View style={style.cardContainer}>
-                    <RectButton style={style.button}>
+                    <RectButton style={style.button} onPress={handleNavigateToClientList}>
                         <Card text={'Clientes'} />
                         <Image source={users} style={style.icon} />
                     </RectButton>
 
-                    <RectButton style={style.button}>
+                    <RectButton style={style.button} onPress={handleNavigateToClientReport}>
                         <Card text={'Extratos'} />
                         <Image source={card} style={style.icon} />
                     </RectButton>

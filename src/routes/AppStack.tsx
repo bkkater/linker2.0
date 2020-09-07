@@ -15,6 +15,8 @@ import December from '../pages/Organization/December';
 import Export from '../pages/Export';
 import Landing from '../pages/Landing';
 import HomeFinancer from '../pages/HomeFinancer';
+import ClientList from '../pages/ClientList';
+import ClientReport from '../pages/ClientReport';
 
 
 
@@ -39,6 +41,11 @@ function AppStack() {
 
                 <Screen name='Reports' component={Reports} />
                 <Screen name='Export' component={Export} />
+
+                <Screen name='ClientList' component={ClientList} />
+                <Screen name='ClientReport' component={ClientReport} />
+
+
 
             </Navigator>
         </NavigationContainer>
