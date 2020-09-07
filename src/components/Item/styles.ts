@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
     header: {
         flexDirection: "row",
-        marginBottom: 5
+        marginBottom: 5,
     },
     greenTitle: {
         fontFamily: 'Ubuntu_500Medium',

@@ -5,11 +5,16 @@ import { NavigationContainer } from '@react-navigation/native';
 import Home from '../pages/Home';
 import Organization from '../pages/Organization';
 import Calculator from '../pages/Calculator';
+import Reports from '../pages/Reports';
+
 
 import September from '../pages/Organization/September';
 import October from '../pages/Organization/October';
 import November from '../pages/Organization/November';
 import December from '../pages/Organization/December';
+import Export from '../pages/Export';
+import Landing from '../pages/Landing';
+import HomeFinancer from '../pages/HomeFinancer';
 
 
 
@@ -18,8 +23,12 @@ const { Screen, Navigator } = createStackNavigator();
 function AppStack() {
     return (
         <NavigationContainer>
-            <Navigator screenOptions={{headerShown: false}}> 
+            <Navigator screenOptions={{ headerShown: false }}>
+                <Screen name='Landing' component={Landing} />
+
                 <Screen name='Home' component={Home} />
+                <Screen name='HomeFinancer' component={HomeFinancer} />
+
                 <Screen name='Organization' component={Organization} />
                 <Screen name='Calculator' component={Calculator} />
 
@@ -28,6 +37,8 @@ function AppStack() {
                 <Screen name='November' component={November} />
                 <Screen name='December' component={December} />
 
+                <Screen name='Reports' component={Reports} />
+                <Screen name='Export' component={Export} />
 
             </Navigator>
         </NavigationContainer>

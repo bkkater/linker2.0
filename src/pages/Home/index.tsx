@@ -32,7 +32,7 @@ function AppLoading() {
             <View style={style.topBar} />
             <ScrollView>
 
-                <HomeHeader />
+                <HomeHeader title='Sua Empresa'/>
 
                 <View style={style.cardContainer}>
                     <MainCard first={true} />
@@ -94,7 +94,7 @@ function AppLoading() {
                     </RectButton>
 
                     <RectButton style={style.button}>
-                        <Card text={'Configurações'}/>
+                        <Card text={'Ajustes'}/>
                         <Image source={config} style={style.icon}/>
                     </RectButton>
                     

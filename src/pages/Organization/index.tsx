@@ -30,6 +30,11 @@ function Organization() {
         navigate('September')
 
     }
+
+    function navigateToReports(){
+        navigate('Reports')
+    }
+
     return (
         <View style={{ alignItems: "center" }}>
             <View style={style.topBar} />
@@ -68,7 +73,7 @@ function Organization() {
             </OrganizationContainer>
 
             <View style={style.details}>
-                <BorderlessButton><Text style={style.detailsText}>Ver Relatório</Text></BorderlessButton>
+                <BorderlessButton onPress={navigateToReports}><Text style={style.detailsText}>Ver Relatório</Text></BorderlessButton>
             </View>
 
             <OrganizationContainer title={'Despesas por Categoria'} icon={<BorderlessButton><Image source={add} /></BorderlessButton>}>
