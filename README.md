@@ -1,10 +1,35 @@
+<h1 align ="center" display= 'flex'>
+    <img src="src/assets/mockup.png" alt="Imagem do App" title="#Linker Faça+"></img>
+</h1>
 
-## Linker 2.0 🚀 em construção... 🚧
+## Linker Faça+ 🚀 em construção... 🚧
 
 
 ## 💻 Sobre o projeto
+Gerencie pagamentos e receitas fixas e variáveis aliadas a um relatório de negócios que possibilita a categorização dos custos e apresenta os dados da forma mais clara possível.
+Tudo isso dentro de um único app, com possibilidade de exportação dos dados para seu contabilista.
+<br>
+<br>
+<br>
+<strong>ORGANIZE</strong>
+<br>
+Monte relações mensais de gastos fixos e contas a pagar. Assim, é possível
+analisar o que é essencial, o que é possível negociar ou reduzir.
+<br>
+<br>
 
-...
+<strong>COMPARTILHE</strong>
+<br>
+Agrupe, categorize e exporte relatórios visuais e brutos para facilitar a
+leitura dos dados pelo seu contador ou equipe financeira.
+<br>
+<br>
+
+<strong>AMPLIE</strong>
+<br>
+Receba dicas, aprenda e conheça mais sobre gestão financeira através de
+artigos e posts do próprio blog do Linke
+<br>
 
 ## 🛠 Tecnologias
 
