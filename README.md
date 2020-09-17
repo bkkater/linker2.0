@@ -28,7 +28,7 @@ leitura dos dados pelo seu contador ou equipe financeira.
 <strong>AMPLIE</strong>
 <br>
 Receba dicas, aprenda e conheça mais sobre gestão financeira através de
-artigos e posts do próprio blog do Linke
+artigos e posts do próprio blog do Linker
 <br>
 
 ## 🛠 Tecnologias
@@ -48,7 +48,7 @@ artigos e posts do próprio blog do Linke
 - [Jhennifer](https://www.linkedin.com/in/jhennifer-pimentel-0518171b2/)
 
 
-## 📏 Mentores
+## 📏 Mentoras
 - [Simone Hipólito](https://www.linkedin.com/in/simonehipp%C3%B3lito/)
 - [Julia Villas Bôas](https://www.linkedin.com/in/julia-villas-b%C3%B4as-65196a97/?originalSubdomain=br)
 - [Isa Teixeira](https://www.linkedin.com/in/isaraquelt/)
