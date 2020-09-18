@@ -36,7 +36,6 @@ artigos e posts do próprio blog do Linker
 - React Native
 - Expo
 - Typescript
-- Node
 
 ## 🎨 Layout
 - [Figma](https://www.figma.com/file/R1NyldeRzUlMEI0Gmb2FmR/Linker-2.0?node-id=4%3A11)
