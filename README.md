@@ -6,7 +6,7 @@
 
 
 ## 💻 Sobre o projeto
-Gerencie pagamentos e receitas fixas e variáveis aliadas a um relatório de negócios que possibilita a categorização dos custos e apresenta os dados da forma mais clara possível.
+Gerencie pagamentos, receitas fixas e variáveis aliadas a um relatório de negócios que possibilita a categorização dos custos e apresenta os dados da forma mais clara possível.
 Tudo isso dentro de um único app, com possibilidade de exportação dos dados para seu contabilista.
 <br>
 <br>
